@@ -1,0 +1,140 @@
+# ============================================
+# ASP.NET Core / .NET
+# ============================================
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio
+.vs/
+*.csproj.user
+*.VC.db
+*.VC.VC.opendb
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Rider
+.idea/
+*.sln.iml
+
+# ============================================
+# Configuración sensible (¡IMPORTANTE!)
+# ============================================
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.Local.json
+*.env
+.env
+.env.local
+secrets.json
+
+# ============================================
+# Base de datos
+# ============================================
+*.mdf
+*.ldf
+*.ndf
+*.sqlite
+*.sqlite3
+*.db
+
+# ============================================
+# Node / Frontend (si usas npm, gulp, etc.)
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+dist/
+build/
+.cache/
+.parcel-cache/
+
+# ============================================
+# Archivos estáticos generados
+# ============================================
+wwwroot/dist/
+wwwroot/lib/
+!wwwroot/lib/.gitkeep
+
+# ============================================
+# Logs y temporales
+# ============================================
+*.log
+*.tmp
+*.temp
+temp/
+tmp/
+
+# ============================================
+# Sistema operativo
+# ============================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# ============================================
+# IDEs y editores
+# ============================================
+*.swp
+*.swo
+*~
+.obsidian/
+
+# ============================================
+# Secretos y certificados
+# ============================================
+*.pfx
+*.p12
+*.key
+*.pem
+!ssl/*.crt
+
+# ============================================
+# Tests y coverage
+# ============================================
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+coverage/
+*.coverage
+*.coveragexml

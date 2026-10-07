@@ -55,4 +55,4 @@ stages:
         azureSubscription: 'PortafolioConnection' # Nombre de la conexión
         appType: 'webApp'
         appName: 'portafoliojuank20261007143223-ewbnbwbug7bybpf7.centralus-01.azurewebsites.net'    # Nombre de tu App Service
-        package: '$(System.ArtifactsDirectory)/drop/*.zip'4
+        package: '$(System.ArtifactsDirectory)/drop/*.zip'
